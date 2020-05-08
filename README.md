@@ -8,6 +8,11 @@ With goals of readability (it was intended as an example for my son - no sophist
 
 Install Python 3 and PyGame, then launch vie.py from your file explorer or use "python vie.py" on the command line.
 
+After first launch, a vie.cfg configuration file will be created that you'll be able to tweak to your taste (including setting the game in English).
+
+You will probably want to download LifeWiki 1500+ pattern files collection at http://www.conwaylife.com/patterns/all.zip
+Uncompress it to the bibli subdirectory for the software to use them.
+
 Windows users: you can download Python and PyGame from the following locations:
 - https://www.python.org/downloads/windows/ (I used python-3.7.7-amd64.exe)
 - https://pypi.org/project/pygame/#files (I used pygame-1.9.6-cp37-cp37m-win_amd64.whl)
