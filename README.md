@@ -17,7 +17,7 @@ Windows users: you can download Python and PyGame from the following locations:
 
 1.03 2020-05-08
 
- Initial public release.
+    Initial public release.
 
 # Caveats
 
