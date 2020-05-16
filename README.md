@@ -21,7 +21,14 @@ On first launch, it'll automatically download and install LifeWiki's 1500+ patte
 
 1.1 2020-05-16
 
-    TODO
+    - CORRECTION: Corrected a bug when using File mode before the creation of the backup directory or the first file inside
+    - CORRECTION: Corrected a bug with PlainText files loading (empty lines instead of dot filled lines)
+    - CORRECTION: Correction a bug with RunLengthEncoded files loading (multiplicator before the "$" character)
+    - NEW FEATURE: Automatic download and install of LifeWiki's pattern collection
+    - NEW FEATURE: Measuring evolution cycle duration and displaying it on the console in DEBUG mode
+    - OPTIMIZATION: Use integers when comparing the number of cell neighbours with the birth/survival rule
+    - OPTIMIZATION: Evolve or crop only the useful part of the game grid
+    - PRESENTATION: Improve PEP8 compliance
 
 1.0 2020-05-08
 
