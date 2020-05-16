@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""
+""" Constantes linguistiques
 Titre : Le jeu de la Vie
 Auteur : Hubert Tournier
 Création : 29/04/2020
-Version : 1.0 (08/05/2020)
-Module : Constantes linguistiques
+Version : 1.1 (16/05/2020)
+Version 1.1 :
+- PRESENTATION : Amélioration conformité PEP8
 """
 
 # Chaînes avec version normale uniquement
@@ -13,16 +14,22 @@ texte1 = \
     "fr" : # Français
     {
         "TITRE" : "Le jeu de la Vie",
-        
+
+        "TELECHARGEMENT"  : "Téléchargement de la base de formes du site LifeWiki (une fois, < 30 s)",
+        "DECOMPRESSION"   : "Installation de la base de formes du site LifeWiki (une fois, < 30 s)",
+        "TERMINE"         : "Terminé en ",
+        "CYCLE_EVOLUTION" : "Cycle d'évolution terminé en ",
+        "SECONDES"        : " secondes",
+
         "POP_MINIMUM" : "min",
         "POP_MAXIMUM" : "max",
-        
+
         "AVERTISSEMENT" : "AVERTISSEMENT ",
         "ERREUR"        : "ERREUR ",
         "FICHIER"       : "fichier",
         "NOLIGNE"       : "n° ligne",
         "LIGNE"         : "ligne",
-        
+
         "TOUCHE_BIBLIOTHEQUE" : "b",
         "TOUCHE_FICHIER"      : "f",
         "TOUCHE_SAUVEGARDER"  : "s",
@@ -30,23 +37,29 @@ texte1 = \
         "TOUCHE_VIDER"        : "v",
         "TOUCHE_QUITTER"      : "q",
         "TOUCHE_CONFIRMATION" : "o",
-        
+
         "DERNIERE_PARTIE" : "_DernierePartie"
     },
-    
+
     "en" : # English
     {
         "TITRE" : "The game of Life",
-        
+
+        "TELECHARGEMENT" : "Downloading the pattern collection from LifeWiki website (only once, < 30 s)",
+        "DECOMPRESSION"  : "Installing the pattern collection from LifeWiki website (only once, < 30 s)",
+        "TERMINE"        : "Done in ",
+        "CYCLE_EVOLUTION" : "Evolution cycle completed in ",
+        "SECONDES"       : " seconds",
+
         "POP_MINIMUM"   : "min",
         "POP_MAXIMUM"   : "max",
-        
+
         "AVERTISSEMENT" : "WARNING",
         "ERREUR"        : "ERROR",
         "FICHIER"       : "file",
         "NOLIGNE"       : "line #",
         "LIGNE"         : "line",
-        
+
         "TOUCHE_BIBLIOTHEQUE" : "l",
         "TOUCHE_FICHIER"      : "f",
         "TOUCHE_SAUVEGARDER"  : "s",
@@ -54,7 +67,7 @@ texte1 = \
         "TOUCHE_VIDER"        : "e",
         "TOUCHE_QUITTER"      : "q",
         "TOUCHE_CONFIRMATION" : "y",
-        
+
         "DERNIERE_PARTIE" : "_LastGame"
     }
 }
@@ -73,7 +86,7 @@ texte2 = \
             "MODE_CONFIRMATION" : " [mode confirmation : O/o=confirmer, autre=annuler] Ecraser le fichier ? => ",
             "MODE_FICHIER"      : " [mode sélecteur de fichier : ESC=mode édition, flèches=sélectionner, souris=positionner, Entrée=poser] => ",
             "MODE_PAUSE"        : " [mode évolution en pause : ESC=mode édition, Espace=reprendre] ",
-            
+
             "VITESSE"    : "vitesse",
             "GENERATION" : "génération",
             "POPULATION" : "population",
@@ -90,7 +103,7 @@ texte2 = \
             "MODE_CONFIRMATION" : " [confirmation: O/o/autre] Ecraser ? => ",
             "MODE_FICHIER"      : " [sélecteur de fichier: ESC/flèches/souris/Entrée] => ",
             "MODE_PAUSE"        : " [évolution en pause: ESC/Espace] ",
-            
+
             "VITESSE"    : "v",
             "GENERATION" : "gen",
             "POPULATION" : "pop",
@@ -99,7 +112,7 @@ texte2 = \
             "DECES"      : "d"
         }
     },
-    
+
     "en" : # English
     {
         "long" :
@@ -111,7 +124,7 @@ texte2 = \
             "MODE_CONFIRMATION" : " [confirmation mode: Y/y=confirm, other=cancel] Overwrite file? => ",
             "MODE_FICHIER"      : " [file selection mode: ESC=edit mode, arrows=select, mouse=position, Return=paste] => ",
             "MODE_PAUSE"        : " [evolution mode stalled: ESC=edit mode, Space=unpause] ",
-            
+
             "VITESSE"      : "speed",
             "GENERATION"   : "generation",
             "POPULATION"   : "population",
@@ -128,7 +141,7 @@ texte2 = \
             "MODE_CONFIRMATION" : " [confirmation: Y/y/other] Overwrite? => ",
             "MODE_FICHIER"      : " [file selection: ESC/arrows/mouse/Return] => ",
             "MODE_PAUSE"        : " [evolution stalled: ESC/Space] ",
-            
+
             "VITESSE"    : "s",
             "GENERATION" : "gen",
             "POPULATION" : "pop",

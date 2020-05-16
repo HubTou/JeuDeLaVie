@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""
+""" Exemples de structures issues de Wikipedia
 Titre : Le jeu de la Vie
 Auteur : Hubert Tournier
 Création : 29/04/2020
-Version : 1.0 (08/05/2020)
-Module : Exemples de structures issues de Wikipedia
+Version : 1.1 (16/05/2020)
+Version 1.1 :
+- PRESENTATION : Amélioration conformité PEP8
 """
 
 bibliotheque = \
@@ -190,7 +191,7 @@ bibliotheque = \
         ],
     "Puffeur : Machine tournante 4" : \
         [
-            [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1] 
+            [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]
         ],
     "Remplisseur : 1" : \
         [
@@ -266,7 +267,7 @@ bibliotheque = \
             [1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0],
             [1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1],
             [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
-        ],         
+        ],
     "Oscillateur : Clignotant" : \
         [
             [1, 1, 1]
@@ -569,5 +570,5 @@ bibliotheque = \
             [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
-        ]           
+        ]
 }
