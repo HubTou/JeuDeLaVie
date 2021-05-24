@@ -57,7 +57,8 @@ This open source software is distributed under a BSD license (see the "License" 
 # Credits
 
  - In memory of John Horton Conway, 1937-2020 (https://fr.wikipedia.org/wiki/John_Horton_Conway)
- - The book "Récréations informatiques", bibliothèque Pour la Science, diffusion Belin, which made me discover this game in 1987
+ - The article [La vie, seul où à deux](http://download.abandonware.org/magazines/Jeux%20et%20Strategie/jeuxetstrategie_numero009/Jeux_et_Strategie%20009%20-%20p018%20%281981-06-07%29.jpg) in [Jeux & Stratégie n°9](https://www.abandonware-magazines.org/affiche_mag.php?mag=185&num=4151&album=oui), which made me discover this game in June 1981 
+ - The book "Récréations informatiques", bibliothèque Pour la Science, diffusion Belin, which made me (re)discover this game in 1987 and want to program it
  - Wikipedia which made me (re)discover the remarkable patterns provided in the included internal library
  - WikiLife for its pattern collection and its description of the usual file formats (https://conwaylife.com/wiki/Category:File_formats)
 
