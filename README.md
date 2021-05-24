@@ -1,8 +1,8 @@
 # About JeuDeLaVie
 
-Yet another (Python+PyGame) implementation of John Horton Conway's Game of Life (https://fr.wikipedia.org/wiki/Jeu_de_la_vie)
+Yet another (Python+PyGame) implementation of John Horton Conway's [Game of Life](https://fr.wikipedia.org/wiki/Jeu_de_la_vie).
 
-With goals of readability (it was intended as an example for my son - no sophisticated algorithms such as HashLife here), providing a PyGame (https://www.pygame.org/) example, in a program (project) with rather complete functionalities (configuration file, saves, multi modes, etc.) BUT with a minimalist GUI only using the window title (a challenge!), the idea being to later use a PyGame GUI framework, for example such as Simple Game Code (https://program.sambull.org/sgc/)
+With goals of readability (it was intended as an example for my son - no sophisticated algorithms such as HashLife here), providing a [PyGame](https://www.pygame.org/) example, in a program (project) with rather complete functionalities (configuration file, saves, multi modes, etc.) BUT with a minimalist GUI only using the window title (a challenge!), the idea being to later use a PyGame GUI framework, for example such as [Simple Game Code](https://program.sambull.org/sgc/)
 
 # Installation / Configuration / Usage
 
@@ -14,7 +14,7 @@ Windows users: you can download Python and PyGame from the following locations:
 - https://www.python.org/downloads/windows/ (I used python-3.7.7-amd64.exe)
 - https://pypi.org/project/pygame/#files (I used pygame-1.9.6-cp37-cp37m-win_amd64.whl)
 
-On first launch, it'll automatically download and install LifeWiki's 1500+ pattern files collection (at http://www.conwaylife.com/patterns/all.zip).
+On first launch, it'll automatically download and install LifeWiki's [1500+ pattern files collection](http://www.conwaylife.com/patterns/all.zip).
 
 
 # Versions and changelog
@@ -56,11 +56,11 @@ This open source software is distributed under a BSD license (see the "License" 
 
 # Credits
 
- - In memory of John Horton Conway, 1937-2020 (https://fr.wikipedia.org/wiki/John_Horton_Conway)
+ - In memory of [John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway), 1937-2020.
  - The article [La vie, seul où à deux](http://download.abandonware.org/magazines/Jeux%20et%20Strategie/jeuxetstrategie_numero009/Jeux_et_Strategie%20009%20-%20p018%20%281981-06-07%29.jpg) in [Jeux & Stratégie n°9](https://www.abandonware-magazines.org/affiche_mag.php?mag=185&num=4151&album=oui), which made me discover this game in June 1981 
  - The book "Récréations informatiques", bibliothèque Pour la Science, diffusion Belin, which made me (re)discover this game in 1987 and want to program it
  - Wikipedia which made me (re)discover the remarkable patterns provided in the included internal library
- - WikiLife for its pattern collection and its description of the usual file formats (https://conwaylife.com/wiki/Category:File_formats)
+ - WikiLife for its pattern collection and its description of the [usual file formats](https://conwaylife.com/wiki/Category:File_formats)
 
 # Author
 
